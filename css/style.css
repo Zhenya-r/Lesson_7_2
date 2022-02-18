@@ -1,0 +1,49 @@
+/* &display=swap */
+@import "null.css";
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+
+body {
+	font-family: Lato, serif;
+}
+
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+	max-width: 870px;
+	margin: 0 auto;
+}
+
+.main {
+}
+.suptitle {
+	margin: 0px 0px 8px 0px;
+	padding: 180px 0px 0px 0px;
+	font-weight: 700;
+	line-height: calc(24 / 15);
+	text-transform: uppercase;
+}
+.title {
+	margin: 0px 0px 40px 0px;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: calc(60 / 46);
+}
+.list {
+	max-width: 390px;
+	margin: 0px 0px 48px 0px;
+}
+.item {
+	background: url("../img/mark.svg") 0 5px no-repeat;
+	line-height: calc(26 / 16);
+	padding: 0px 0px 0px 32px;
+	margin: 0px 0px 12px 0px;
+}
+.btn {
+	display: inline-block;
+	padding: 0 33px;
+	font-size: 14px;
+	line-height: calc(44 / 14);
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+	border-radius: 4px;
+	color: #fff;
+}
